@@ -100,7 +100,7 @@ module.exports = function (grunt) {
             }, hbs: {
                 files: ['javascripts/templates/**/*.handlebars'], tasks: ['exec', 'jshint', 'dist-js']
             }, sass: {
-                files: ['stylesheets/**/*.scss', 'stylesheets/**/*.sass'], tasks: ['clean:css', 'dist-css']
+                files: ['../stylesheets/**/*.scss', '../stylesheets/**/*.sass'], tasks: ['clean:css', 'dist-css']
             }
         },
 

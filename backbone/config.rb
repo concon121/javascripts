@@ -3,7 +3,7 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 css_dir = "public/css"
-sass_dir = "stylesheets"
+sass_dir = "../stylesheets"
 cache_path = '/.sass-cache'
 # You can select your preferred output style here (can be overridden via the command line):
 output_style = :compressed
