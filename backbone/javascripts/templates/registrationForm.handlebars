@@ -1,0 +1,37 @@
+  <form id="regForm" action="#">
+    <fieldset>
+
+      <legend>Register for our service</legend>
+
+      <div class="formRow">
+
+          {{> partials/input id="forename" content="Forename..." required=true}}
+          {{> partials/input id="surname" content="Surname..." required=true}}
+
+      </div>
+
+      <div class="formRow">
+
+        {{> partials/input id="email" content="E-Mail..." required=true}}
+        {{> partials/input id="phone" content="Phone..." required=true}}
+
+      </div>
+
+      <div class="formRow">
+
+        <div id="gender" class="formItem">
+
+          {{> partials/radio id="male" group="gender" content="Male" checked=true required=true}}
+          {{> partials/radio id="female" group="gender" content="Female" checked=false required=true}}
+
+        </div>
+
+      </div>
+
+      <div class="formRow">
+
+        {{> partials/button}}
+
+      </div>
+    </fieldset>
+  </form>
