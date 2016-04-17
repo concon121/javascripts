@@ -41,7 +41,6 @@ module.exports = function (grunt) {
                   'javascripts/thirdparty/underscore-min.js',
                   'javascripts/thirdparty/jquery.min.js',
                   'javascripts/thirdparty/jquery-ui.min.js',
-                  'javascripts/thirdparty/jquery.validate.min.js',
                   'javascripts/thirdparty/knockout.min.js',
                   'javascripts/thirdparty/knockout.validation.min.js'
                 ],
