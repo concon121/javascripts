@@ -4,7 +4,6 @@ var RegistrationView = Backbone.View.extend({
     this.model = opts.model;
   },
   events: {
-    "change #gender input:radio" : "updateRadio",
     "click #submitRegistration" : "submitForm"
   },
   render: function() {
