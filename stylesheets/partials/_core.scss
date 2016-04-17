@@ -45,6 +45,8 @@ h1 {
   @extend %center-text;
 }
 
-.error {
+.error, .validationMessage {
+  background-color: transparent;
+  margin-top: $tinySpacer;
   color: $red;
 }
