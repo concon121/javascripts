@@ -3,7 +3,6 @@ module.exports = function (grunt) {
     'use strict';
 
     var path = require('path');
-    var handlebars = require("handlebars");
     // Project configuration.
     var gruntConfig = {
 
